@@ -1,6 +1,6 @@
 /* Ilm-fan olami: 3D — offline ishlash uchun service worker.
    Ilovani yangilaganingizda CACHE nomidagi raqamni oshiring (v1 -> v2). */
-var CACHE = "ilm-fan-3d-v8";
+var CACHE = "ilm-fan-3d-v9";
 var CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", function (e) {
